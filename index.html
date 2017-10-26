@@ -6,54 +6,447 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
+
+    <!-- Reset File -->
     <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+    <!-- Bootstrap CSS File -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+
+    <!-- Libraries CSS Files -->
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body class="container">
+<body>
 
-    <header class="row">
-        <img src="img/logo.png" alt="" width="64" height="64">
-        <h1>Get Podoski Name</h1>
-        <h2> your main craft awesome</h2>
+    <!-- Cover section -->
+    <section class="cover-section">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#" class="cover-section-brand" title="cover">
+                        <img src="img/logo.png" alt="Cover Picture" class="img-fluid logo">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <h1>The song of a FFFFFFFFF</h1>
+                <p class="tagline">
+                    This a demo of some resources projects made by MyName
+                </p>
+                <a href="#" class="btn btn-full">See Right Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- header -->
+    <header id="header">
+        <div class="container">
+            <div id="logo" class="pull-left">
+                <a href="index.html"><img src="img/logo.png" alt="logo header" width="30px" height="30px"/></img></a>
+            </div>
+
+            <!-- nav container -->
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li class="menu-has-children"><a href="">Drop Down</a>
+                        <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li class="menu-has-children"><a href="#">Drop Down 2</a>
+                                <ul>
+                                    <li><a href="#">Deep Drop Down 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                            <li><a href="#">Drop Down 5</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <!-- nav social -->
+            <nav class="nav social-nav pull-right hidden-sm-down">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-envelope"></i></a>
+            </nav>
+        </div>
     </header>
 
+    <!-- Content -->
     <main>
-        <section class="project-highlight row">
-            <img src="img/projects/project1.jpg" class="img-fluid" alt="project1">
+
+        <section class="statistics" id="statistics">
+            <div class="container text-center">
+                <h2>Header</h2>
+                <p>Some paragraph</p>
+                <div class="row stats-row">
+                    <div class="stats-col text-center col-md-3 col-sm-6">
+                        <div class="circle">
+                            <span class="stats-no" data-toggle="counter-up">232</span> Satisfied Customers
+                        </div>
+                    </div>
+
+                    <div class="stats-col text-center col-md-3 col-sm-6">
+                        <div class="circle">
+                            <span class="stats-no" data-toggle="counter-up">79</span> Released Projects
+                        </div>
+                    </div>
+
+                    <div class="stats-col text-center col-md-3 col-sm-6">
+                        <div class="circle">
+                            <span class="stats-no" data-toggle="counter-up">1,463</span> Hours Of Support
+                        </div>
+                    </div>
+
+                    <div class="stats-col text-center col-md-3 col-sm-6">
+                        <div class="circle">
+                            <span class="stats-no" data-toggle="counter-up">15</span> Hard Workers
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="content row">
-            <section class="project-gallery">
-                <h1>Featured Work</h1>
-                <section class="row">
-                    <article class="project col-md-3">
-                        <img src="img/projects/project2.jpeg" class="img-thumbnail" alt="project2">
-                        <h2>Appify</h2>
-                        <a href="#"></a>
-                    </article>
-                    <article class="project col-md-3">
-                        <img src="img/projects/project3.jpeg" class="img-thumbnail" alt="project3">
-                        <h2>Appify</h2>
-                        <a href="#"></a>
-                    </article>
-                    <article class="project col-md-3">
-                        <img src="img/projects/project4.jpeg" class="img-thumbnail" alt="project4">
-                        <h2>Appify</h2>
-                        <a href="#"></a>
-                    </article>
-                </section>
-            </section>
+
+        <!-- Parallax -->
+
+        <div class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/universe.jpeg" data-settings='{"stellar-background-ratio": 0.6}'
+            data-toggle="parallax-bg">
+            <h2>
+                Template made by show some projects from
+            </h2>
+
+            <p>
+                This is the most powerful theme with thousands of options that you have never seen before.
+            </p>
+            <!-- <img alt="Bell - A perfect theme" class="gadgets-img hidden-md-down" src="img/gadgets.png"> -->
+        </div>
+        <!-- /Parallax -->
+
+        <!--Features -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="text-center">
+                    Features
+                </h2>
+
+                <div class="row">
+                    <div class="skill-col col-lg-4 col-xs-12">
+                        <div class="card card-block text-center">
+                            <div>
+                                <div class="skill-icon">
+                                    <span class="fa fa-rocket"></span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h3>
+                                    Custom Design
+                                </h3>
+
+                                <p>
+                                    Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-col col-lg-4 col-xs-12">
+                        <div class="card card-block text-center">
+                            <div>
+                                <div class="skill-icon">
+                                    <span class="fa fa-envelope"></span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h3>
+                                    Responsive Layout
+                                </h3>
+
+                                <p>
+                                    Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-col col-lg-4 col-xs-12">
+                        <div class="card card-block text-center">
+                            <div>
+                                <div class="skill-icon">
+                                    <span class="fa fa-bell"></span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h3>
+                                    Innovative Ideas
+                                </h3>
+
+                                <p>
+                                    Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="skill-col col-lg-4 col-xs-12">
+                        <div class="card card-block text-center">
+                            <div>
+                                <div class="skill-icon">
+                                    <span class="fa fa-database"></span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h3>
+                                    Good Documentation
+                                </h3>
+
+                                <p>
+                                    Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="container text-center">
+                <h1>FFFFFFFFF</h1>
+                <p>Below some projects...</p>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="card card-block">
+                            <a href="#">
+                                <img src="img/projects/project2.jpeg" alt="project 2" class="img-fluid">
+                                <div class="portfolio-over">
+                                    <div>
+                                        <h3 class="card-title">The Dude...</h3>
+                                        <p class="card-text">
+                                            Llllllll
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="card card-block">
+                            <a href="#">
+                                <img src="img/projects/project2.jpeg" alt="project 2" class="img-fluid">
+                                <div class="portfolio-over">
+                                    <div>
+                                        <h3 class="card-title">The Dude...</h3>
+                                        <p class="card-text">
+                                            Llllllll
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="card card-block">
+                            <a href="#">
+                                <img src="img/projects/project2.jpeg" alt="project 2" class="img-fluid">
+                                <div class="portfolio-over">
+                                    <div>
+                                        <h3 class="card-title">The Dude...</h3>
+                                        <p class="card-text">
+                                            Llllllll
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="card card-block">
+                            <a href="#">
+                                <img src="img/projects/project2.jpeg" alt="project 2" class="img-fluid">
+                                <div class="portfolio-over">
+                                    <div>
+                                        <h3 class="card-title">The Dude...</h3>
+                                        <p class="card-text">
+                                            Llllllll
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="card card-block">
+                            <a href="#">
+                                <img src="img/projects/project2.jpeg" alt="project 2" class="img-fluid">
+                                <div class="portfolio-over">
+                                    <div>
+                                        <h3 class="card-title">The Dude...</h3>
+                                        <p class="card-text">
+                                            Llllllll
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="card card-block">
+                            <a href="#">
+                                <img src="img/projects/project2.jpeg" alt="project 2" class="img-fluid">
+                                <div class="portfolio-over">
+                                    <div>
+                                        <h3 class="card-title">The Dude...</h3>
+                                        <p class="card-text">
+                                            Llllllll
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="card card-block">
+                            <a href="#">
+                                <img src="img/projects/project2.jpeg" alt="project 2" class="img-fluid">
+                                <div class="portfolio-over">
+                                    <div>
+                                        <h3 class="card-title">The Dude...</h3>
+                                        <p class="card-text">
+                                            Llllllll
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="card card-block">
+                            <a href="#">
+                                <img src="img/projects/project2.jpeg" alt="project 2" class="img-fluid">
+                                <div class="portfolio-over">
+                                    <div>
+                                        <h3 class="card-title">The Dude...</h3>
+                                        <p class="card-text">
+                                            Llllllll
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         </section>
     </main>
 
-    <footer class="footer row">
-        <ul>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Follow us on Twitter</a></li>
-            <li><a href="#">RSS</a></li>
-        </ul>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 offset-lg-2">
+                    <div class="info">
+                        <div>
+                            <i class="fa fa-map-marker"></i>
+                            <p>A108 Adam Street<br>New York, NY 535022</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-envelope"></i>
+                            <p>info@example.com</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <p>+1 5589 55488 55s</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-2">
+                    <div class="info">
+                        <div>
+                            <i class="fa fa-map-marker"></i>
+                            <p>A108 Adam Street<br>New York, NY 535022</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-envelope"></i>
+                            <p>info@example.com</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <p>+1 5589 55488 55s</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+
+                    </div>
+                    <div class="col-lg-6 col-xs-12 text-lg-right text-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="index.html">Home</a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="#about">About Us</a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="#portfolio">FFFFFFFFF</a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
