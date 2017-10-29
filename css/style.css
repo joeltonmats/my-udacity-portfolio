@@ -512,10 +512,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .block h2 {
     text-transform: uppercase;
     margin-bottom: 15px;
+    color: #3d3a3a;
 }
 
 .block p {
-    color: #fff;
+    color: #625e5e;
     margin-bottom: 45px;
 }
 
