@@ -4,7 +4,7 @@
   "description": "Udacity portfolio by Joelton Matos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,17 +16,10 @@
   ],
   "author": "Joelton Matos",
   "license": "ISC",
-  "devDependencies": {
-    "grunt": "~0.4.4",
-    "grunt-contrib-jshint": "latest",
-    "jshint-stylish": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-contrib-clean": "latest",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-connect": "^0.7.1",
-    "grunt-responsive-images": "^1.10.1"
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "express": "^4.16.2"
   },
   "bugs": {
     "url": "https://github.com/joeltonmats/my-udacity-portfolio/issues"
