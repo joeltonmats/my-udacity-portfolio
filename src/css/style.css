@@ -538,7 +538,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-bottom: 45px;
 }
 
-.skill-col>div>div {
+.skill-col .wrapper-icon {
     display: table-cell;
     vertical-align: middle;
 }
@@ -618,7 +618,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: all 0.3s ease;
 }
 
-.portfolio-grid .row>div .card .portfolio-over>div {
+.portfolio-grid .row>div .card .portfolio-over>.job-description {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
